@@ -35,6 +35,8 @@ function Word(props) {
   return (
     <div id="print-content">
       <a href="/">Back</a>
+      <button onClick={() => window.print()}>PRINT</button>
+      <h2>Соедини недостающие буквы со словами</h2>
 
       <WordElement
         new_word={list_of_word_out[0]}

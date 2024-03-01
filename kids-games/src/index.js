@@ -28,6 +28,7 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <div className="main-menu">
+        <h2>Развивающие игры для детей от 2 до 5. Просто распечатать!</h2>
         <a className="main-menu_element" href="/game_numb">
           Game Number
         </a>

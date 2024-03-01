@@ -6,6 +6,8 @@ function CompareNumber() {
     <div className="compare-number--block">
       <div>
         <a href="/">Back</a>
+        <button onClick={() => window.print()}>PRINT</button>
+        <h2>Сравни два числа</h2>
       </div>
       <div className="compare-number--block--left">
         <ComponentNumber int={difficult} />

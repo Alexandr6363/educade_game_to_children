@@ -1,12 +1,12 @@
 import MathBlock from "./MathBlock";
+import Navi from "./Navi";
 
 function MathematicFunction() {
   const difficult = 6;
   return (
     <div className="math-func--block">
       <div>
-        <a href="/">Back</a>
-        <button onClick={() => window.print()}>PRINT</button>
+        <Navi />
         <h2>Посчитай</h2>
       </div>
       <div className="math-func--block--left">

@@ -1,11 +1,11 @@
 import Int from "./Int";
+import Navi from "./Navi";
 
 function BigInt() {
   const difficult = 100;
   return (
     <div>
-      <a href="/">Back</a>
-      <button onClick={() => window.print()}>PRINT</button>
+      <Navi />
       <h2>Прочитай числа</h2>
       <div className="big-int">
         <Int int={difficult} />

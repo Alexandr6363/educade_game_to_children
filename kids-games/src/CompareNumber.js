@@ -1,12 +1,12 @@
 import ComponentNumber from "./ComponentNumber";
+import Navi from "./Navi";
 
 function CompareNumber() {
   const difficult = 10;
   return (
     <div className="compare-number--block">
       <div>
-        <a href="/">Back</a>
-        <button onClick={() => window.print()}>PRINT</button>
+        <Navi />
         <h2>Сравни два числа</h2>
       </div>
       <div className="compare-number--block--left">

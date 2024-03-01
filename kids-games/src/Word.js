@@ -1,3 +1,4 @@
+import Navi from "./Navi";
 import WordElement from "./WordElement";
 
 function Word(props) {
@@ -34,8 +35,7 @@ function Word(props) {
 
   return (
     <div id="print-content">
-      <a href="/">Back</a>
-      <button onClick={() => window.print()}>PRINT</button>
+      <Navi />
       <h2>Соедини недостающие буквы со словами</h2>
 
       <WordElement

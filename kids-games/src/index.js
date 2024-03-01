@@ -30,16 +30,16 @@ const router = createBrowserRouter([
       <div className="main-menu">
         <h2>Развивающие игры для детей от 2 до 5. Просто распечатать!</h2>
         <a className="main-menu_element" href="/game_numb">
-          Game Number
+          Сравни числа
         </a>
         <a className="main-menu_element" href="/game_math">
-          Game Math
+          Посчитай
         </a>
         <a className="main-menu_element" href="/game_big_int">
-          Game Big Int
+          Прочитай число
         </a>
         <a className="main-menu_element" href="/game_dict">
-          Dict game
+          Игра в слова
         </a>
       </div>
     ),

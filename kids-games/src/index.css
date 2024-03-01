@@ -88,3 +88,7 @@
   padding: 30px;
   margin: 30px;
 }
+
+#print-button, #back-link {
+  padding: 10px;
+}

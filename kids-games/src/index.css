@@ -1,0 +1,107 @@
+.box {
+  border: solid black 3px;
+  min-width: 150px;
+  min-height: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.black {
+  background-color: black;
+}
+
+.compare-number--block {
+
+  display: grid;
+  grid-template-columns: 3fr 5fr 1fr 5fr 3fr;
+  grid-template-rows: 150px;
+  align-items: center;
+  
+}
+
+.math-func--block {
+  display: grid;
+  grid-template-columns: 3fr 5fr 3fr 5fr 3fr;
+  grid-template-rows: 150px;
+  align-items: center;
+}
+
+.compare-number--block--left, .math-func--block--left {
+  /* border-right: solid black 1px; */
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100px;
+  
+}
+
+.compare-number--block--right, .math-func--block--right {
+  /* border-left: solid black 1px; */
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100px;
+}
+
+.component-number {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /* border: solid black 1px; */
+  height: 200px;
+  border-bottom: solid black 0.5px;
+  border-top: solid black 0.5px;
+}
+
+.component-number--value {
+  font-size: 100px;
+
+}
+
+.little {
+  font-size: 25px;
+}
+
+.big-int {
+  display: grid;
+  grid-template: "a b c "
+                  "d e f";
+}
+
+.int {
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  font-size: 200px;
+
+}
+
+.main-menu {
+  display: flex;
+  margin: 30px;
+}
+
+.main-menu_element {
+  font-size: 30px;
+  padding: 30px;
+}
+
+.dict-main-block {
+  display: grid;
+  grid-template: "a b c d e";
+  padding: 40px;
+  margin: 40px;
+}
+
+.dict-main-block {
+  font-size: 100px;
+  text-align: center;
+  justify-content: space-between;
+  padding: 40px;
+  margin: 40px;
+}

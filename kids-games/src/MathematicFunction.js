@@ -1,4 +1,3 @@
-import ComponentNumber from "./ComponentNumber";
 import MathBlock from "./MathBlock";
 
 function MathematicFunction() {

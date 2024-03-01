@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import CompareNumber from "./CompareNumber";
 import MathematicFunction from "./MathematicFunction";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -22,7 +21,7 @@ const router = createBrowserRouter([
     element: <BigInt />,
   },
   {
-    path: "/dict",
+    path: "/game_dict",
     element: <Dictionary />,
   },
   {
@@ -38,7 +37,7 @@ const router = createBrowserRouter([
         <a className="main-menu_element" href="/game_big_int">
           Game Big Int
         </a>
-        <a className="main-menu_element" href="/dict">
+        <a className="main-menu_element" href="/game_dict">
           Dict game
         </a>
       </div>

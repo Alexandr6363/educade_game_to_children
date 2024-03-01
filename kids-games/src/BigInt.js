@@ -1,4 +1,3 @@
-import ComponentNumber from "./ComponentNumber";
 import Int from "./Int";
 
 function BigInt() {

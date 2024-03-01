@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import WordElement from "./WordElement";
 
 function Word(props) {

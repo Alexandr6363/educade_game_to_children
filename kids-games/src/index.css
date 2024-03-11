@@ -92,3 +92,11 @@
 #print-button, #back-link {
   padding: 10px;
 }
+
+.dict-syr_word {
+  display: grid;
+  grid-template: "a b b b c";
+  font-size: 90px;
+  padding: 40px;
+  align-items: center;
+}
